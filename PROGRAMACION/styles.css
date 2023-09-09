@@ -1,0 +1,198 @@
+ Reset general 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: #fff;
+    text-align: center; 
+    background-image: url(./images1/fondo\ fran.jpg);
+
+}
+
+nav ul {
+    display: flex; 
+    justify-content:space-between; 
+    margin-right: 30px; 
+    font-size: 18px; 
+    font-weight: bold; 
+    color: #d41313; 
+    text-transform: uppercase; 
+    text-align: center; 
+}
+
+nav ul li {
+    display: flex;
+    margin-right: 30px; 
+    font-size: 18px; 
+    font-weight: bold;
+    color: #ffffff;  
+    text-transform: uppercase;
+    align-items: center;
+}
+
+
+.productos {
+    text-align: center;
+    padding: 40px;
+    background-color: #979797;
+    display: flex;
+    justify-content: center;
+}
+
+.producto {
+    display: inline-block;
+    margin: 20px;
+}
+
+.producto img {
+    height: 400px; 
+}
+
+.nosotros {
+    background-color: #f7f7f7;
+    padding: 150px;
+    text-align: center; 
+    background-image: url('./images1/s.logo (1).jpg'); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center; 
+    margin-bottom: 10px;
+}
+.contacto {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+} 
+
+h1{ 
+    font-size: 4rem; 
+    margin-left: 80px;
+}
+
+section p{ 
+    text-align: center; 
+    font-size: 2rem;
+} 
+h2{ 
+    font-size: 3rem;
+    text-align: center;
+}
+a{  
+    font-size: 1.5rem;
+    color: #f7f7f7; 
+    text-decoration: underline; 
+
+}
+h1{ 
+    font-family: 'MiFuente';
+    
+}
+@font-face {
+    font-family: 'MiFuente'; /* Nombre de la fuente */
+    src: url(./fuentes/Aktura_Complete/Fonts/WEB/fonts/Aktura-Regular.woff) format('truetype'); /* Ruta a la fuente y formato */
+    /* Otros formatos de fuente si los tienes (woff, woff2) */
+    font-weight: normal; /* Peso de la fuente (normal, bold, etc.) */
+    font-style: normal; /* Estilo de la fuente (normal o italic) */
+}
+
+section div li a{
+    color: rgb(126, 15, 15);
+    text-decoration: underline; 
+} 
+.productos1{
+    flex-wrap: wrap;  /* Agregado para permitir envolver elementos */
+    text-align: center;
+    padding: 40px;
+    background-color: #979797;
+    display: flex;
+    justify-content: space-between;
+} 
+.productos1 img {
+    width: 300px;
+    height: 350px;
+    transition: transform 0.3s ease; /* Agrega una transición suave */
+}
+.producto .back-image {
+    display: none;
+}
+.imgnosotros{
+    border-radius: 100%;
+    width: 45%;
+    height: 45%;
+}
+.p1{ 
+    color: #d41313; 
+    font-weight: bold; 
+}
+.productowhite{ 
+    display: flex;
+    flex-direction: column;
+}
+.productoblack{
+    display: flex;
+    flex-direction: column;
+}
+.productobrown{ 
+    display: flex;
+    flex-direction: column;
+}
+.productobrown2{ 
+    display: flex;
+    flex-direction: column;
+}
+.productowhite2{
+    display: flex;
+    flex-direction: column;
+}
+.productos2{
+    flex-wrap: wrap;  /* Agregado para permitir envolver elementos */
+    text-align: center;
+    padding: 40px;
+    background-color: #979797;
+    display: flex;
+    justify-content: center;
+} 
+.productoblack3{
+    display: flex;
+    flex-direction: column;
+
+}
+.productowhite3{ 
+    display: flex;
+    flex-direction: column;
+} 
+.productos3{ 
+    flex-wrap: wrap;  /* Agregado para permitir envolver elementos */
+    text-align: center;
+    padding: 40px;
+    background-color: #979797;
+    display: flex;
+    justify-content: center;
+
+
+}
+.chat-button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  span{ 
+    font-size: 30px;
+  }
+
